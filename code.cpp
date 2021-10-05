@@ -15,6 +15,14 @@ circ()
 	rectangle(240,160,400,320);
 }
 
+int welcome()
+{
+	printf('Welcome fors good time');
+	for(int i=0;i<16;i++)
+		printf('%d',i);
+	return 0;
+}
+
 bulb()
 {
 	int i=1,c=1;
